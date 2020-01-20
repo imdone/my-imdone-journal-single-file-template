@@ -1,0 +1,40 @@
+keepEmptyPriority: false
+code:
+  include_lists:
+    - TODO
+    - DOING
+    - DONE
+    - PLANNING
+    - FIXME
+    - ARCHIVE
+    - HACK
+    - CHANGED
+    - XXX
+    - IDEA
+    - NOTE
+    - REVIEW
+lists:
+  - filter: 'due=lt=(${tomorrow at 6AM})&list=ne=DONE&sort(+due,+order)'
+    hidden: false
+    id: 0
+    name: What's Due?
+  - hidden: false
+    name: NOTE
+  - hidden: false
+    name: TODO
+  - hidden: false
+    name: DOING
+  - hidden: false
+    name: DONE
+settings:
+  addNewCardsToTop: true
+  appendNewCardsTo: journal.md
+  cards:
+    colors: []
+  filteredLists:
+    - filter: 'due=lt=(${tomorrow at 6AM})&list=ne=DONE&sort(+due,+order)'
+      name: What's Due?
+  journalPath: ''
+  maxLines: 6
+  newCardSyntax: MARKDOWN
+  taskPrefix: '#'
