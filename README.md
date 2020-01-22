@@ -4,10 +4,12 @@ my-imdone-journal-single-file-template
 This template is for people who want to keep their markdown notes and tasks in a single file.
 It includes a **What's Due?** list for cards that are due tomorrow before 6AM.
 
-# [# It's easy to add links to files and images in your project folder.](#NOTE:0)
+<!--
+[# It's easy to add links to files and images in your project folder.](#NOTE:0)
 - [Link to README.md](README.md)
-<!-- -->
+----
 ![imdone screenshot](screenshot.png)
+-->
 
 <!--
 [# Keyboard shortcuts expand:1 +getting-started](#NOTE:10)
