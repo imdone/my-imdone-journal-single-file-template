@@ -45,5 +45,5 @@ links:
 
 <!-- 
 # [Put your TODOs in block comments to keep them out of generated content.](#TODO:5)
-<!-- +getting-started -->
++getting-started
 -->
