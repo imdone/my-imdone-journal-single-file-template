@@ -1,4 +1,6 @@
 ---
+props:
+  octicons: https://octicons.glitch.me
 template: |
   #
 links:
@@ -13,7 +15,7 @@ links:
 ### Your board is filtered by the `getting-started` tag.
 1. Start here, then work through the cards in TODO
 1. Drag this card to DOING
-1. Open to this card in context by hovering over it and clicking the ![link](https://octicons.glitch.me/link.svg?size=16) at the top of this card.  Notice the list name has changed to DOING.
+1. Open to this card in context by hovering over it and clicking the ![link]({{octicons}}/link.svg?size=16) at the top of this card.  Notice the list name has changed to DOING.
 1. Now drag this card to DONE and click the file link again.
 
 # [Imdone supports task lists in markdown files.](#TODO:1)
@@ -28,15 +30,15 @@ links:
 
 # [This file is your daily journal file.](#TODO:2)
 <!-- +getting-started Due in 20 minutes. -->
-- Hover over the &nbsp; ![menu](https://octicons.glitch.me/kebab-vertical.svg) &nbsp; in the nav bar
-- Click on the "**my-imdone-journal Journal** &nbsp; ![journal](https://octicons.glitch.me/markdown.svg) " item or press **cmd or ctrl + shift + j** at any time to open it.
+- Hover over the &nbsp; ![menu]({{octicons}}/kebab-vertical.svg) &nbsp; in the nav bar
+- Click on the "**my-imdone-journal Journal** &nbsp; ![journal]({{octicons}}/markdown.svg) " item or press **cmd or ctrl + shift + j** at any time to open it.
 - You can find more keyboard shortcuts [here](https://imdone.io/docs/#/settings?id=keyboard-shortcuts).
 
 # [Add and Edit Cards](#TODO:3)
 <!-- +getting-started Due in 30 minutes. -->
-- [ ] Quickly add a card by clicking "&nbsp; ![plus](https://octicons.glitch.me/plus.svg) &nbsp; **Add a card**" at the bottom of this list.
+- [ ] Quickly add a card by clicking "&nbsp; ![plus]({{octicons}}/plus.svg) &nbsp; **Add a card**" at the bottom of this list.
     - New cards created this way get appended to your daily journal.
-- [ ] Quickly edit this card by hovering over it and clicking the ![pencil](https://octicons.glitch.me/pencil.svg?size=16)
+- [ ] Quickly edit this card by hovering over it and clicking the ![pencil]({{octicons}}/pencil.svg?size=16)
 
 # [Read the documentation!](#TODO:4)
 <!-- +getting-started Due in 4 hours. -->
