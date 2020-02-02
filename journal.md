@@ -1,8 +1,13 @@
 ---
 props:
   octicons: https://octicons.glitch.me
+computed:
+  timestamp: (new Date()).toISOString()
+  localeTimestamp: (new Date()).toLocaleString().replace(/:\d+\s/,' ')
 template: |
-  #
+  
+  <!-- created:${timestamp} -->
+  Created: ${localeTimestamp}
 links:
   - pack: fab # Can be fab or fas https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use
     icon: twitter # The font-awesome icon to use
