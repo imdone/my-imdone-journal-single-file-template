@@ -35,7 +35,7 @@ settings:
   filteredLists:
     - filter: 'due=lt=(${tomorrow at 6AM})&list=ne=DONE&sort(+due,+order)'
       name: What's Due?
-  journalPath: ''
+  journalPath: '/notes'
   maxLines: 7
   newCardSyntax: MARKDOWN
   taskPrefix: '#'
